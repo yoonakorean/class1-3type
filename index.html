@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>1-3 單字聽打</title>
+  <title>1-2 單字聽打</title>
   <style>
     body {
       font-family: sans-serif;
@@ -64,7 +64,7 @@
 </head>
 <body>
   <img id="logo" src="logo.png" alt="Logo">
-  <div id="game-title">1-3 單字聽打</div>
+  <div id="game-title">1-2 單字聽打</div>
   <div id="question-number">第 1 題 / 共 12 題</div>
   <audio id="audio" controls></audio><br>
   <input type="text" id="answer" placeholder="請輸入聽到的內容"><br>
@@ -89,18 +89,18 @@
 
   <script>
     const questions = [
-      { audio: "1.mp3", answer: "거리" },
-      { audio: "2.mp3", answer: "거미" },
-      { audio: "3.mp3", answer: "너구리" },
-      { audio: "4.mp3", answer: "누구" },
-      { audio: "5.mp3", answer: "다리" },
-      { audio: "6.mp3", answer: "다리미" },
-      { audio: "7.mp3", answer: "드라마" },
-      { audio: "8.mp3", answer: "바나나" },
-      { audio: "9.mp3", answer: "바다" },
-      { audio: "10.mp3", answer: "부부" },
-      { audio: "11.mp3", answer: "비누" },
-      { audio: "12.mp3", answer: "어디" }
+      { audio: "1.mp3", answer: "거리" },
+      { audio: "2.mp3", answer: "거미" },
+      { audio: "3.mp3", answer: "너구리" },
+      { audio: "4.mp3", answer: "누구" },
+      { audio: "5.mp3", answer: "다리" },
+      { audio: "6.mp3", answer: "다리미" },
+      { audio: "7.mp3", answer: "드라마" },
+      { audio: "8.mp3", answer: "바나나" },
+      { audio: "9.mp3", answer: "바다" },
+      { audio: "10.mp3", answer: "부부" },
+      { audio: "11.mp3", answer: "비누" },
+      { audio: "12.mp3", answer: "어디" }
     ];
 
     function shuffle(array) {
@@ -204,7 +204,7 @@
         String(now.getSeconds()).padStart(2, '0');
       const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
       const weekday = weekdays[now.getDay()];
-      const gameTitle = "1-3 單字聽打";
+      const gameTitle = "1-2 單字聽打";
 
       const formURL = "https://docs.google.com/forms/d/e/1FAIpQLSd8KhDu_lq6g4aPzkLaNYUUVG9P0E9cRT1R2WVDIkkfFh7WxA/formResponse";
       const formData = new FormData();
